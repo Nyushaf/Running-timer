@@ -1,0 +1,145 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1483721310020-03333e577078?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2128&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box {
+    display: flex;
+    justify-content: flex-start;
+}
+.box-one {
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: rgba(255, 228, 196, 0.218);
+    width: 50%;
+    padding: 20px;
+    margin-left: 20px;
+}
+.box-two {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color: rgba(255, 228, 196, 0.308);
+    width: 95%;
+    padding: 30px;
+}
+input {
+    padding: 17px;
+    border: none;
+    border-radius: 17px;
+    font-size: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    font-family: 'Roboto', sans-serif;
+    width: 40%;
+}
+h1 {
+    font-size: 50px;
+    margin-top: 15px;
+    margin-bottom: 7px;
+    text-shadow: 3px 3px 3px rgba(255, 228, 196);
+    font-family: 'Roboto', sans-serif;
+}
+p {
+    font-size: 23px;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+}
+.btn {
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 25px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    font-family: 'Roboto', sans-serif;
+    color: #cf681a;
+    text-shadow: 1px 1px rgba(255, 228, 196);
+}
+.center {
+    display: flex;
+    justify-content: center;
+}
+#myVideo {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+#container-countdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background-color: rgba(170, 160, 147, 0.448);
+    width: 80%;
+    border-radius: 15px;
+}
+#countdown {
+    font-size: 90px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.text {
+    font-size: 50px;
+    color: #cf681a;
+    text-shadow: 3px 3px 3px rgb(4, 4, 4);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.display-none, .rest {
+    display: none;
+}
+.praise {
+    text-align: center;
+    font-size: 90px;
+    color: #cf681a;
+    text-shadow: 3px 3px 3px rgb(4, 4, 4);
+    font-family: 'Roboto', sans-serif;
+}
+@media all and (max-width: 500px){
+    input {
+        padding: 10px;
+        font-size: 12px;
+    }
+    p {
+        font-size: 13px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    body {
+        background-repeat: repeat-y;
+    }
+    .text {
+        font-size: 30px;
+    }
+    #countdown {
+        font-size: 50px;
+    }
+}
+@media all and (max-width: 800px){
+    input {
+        padding: 13px;
+        font-size: 15px;
+    }
+    p {
+        font-size: 15px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    body {
+        background-repeat: repeat-y;
+    }
+    .text {
+        font-size: 30px;
+    }
+    #countdown {
+        font-size: 50px;
+    }
+}
