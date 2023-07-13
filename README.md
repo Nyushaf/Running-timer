@@ -51,7 +51,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="image/weather.jpg" alt="screen">
+<img src="image/example.jpg" alt="screen">
 
 This is a timer project for sports training. It allows the user to set their own parameters, such as:  
 * workout time,
@@ -59,7 +59,7 @@ This is a timer project for sports training. It allows the user to set their own
 * number of repetitions.
 
   
-<img src="image/weather.jpg" alt="screen">
+<img src="image/running.jpg" alt="screen">
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
