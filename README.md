@@ -98,11 +98,11 @@ To get a local copy up and running follow these simple example steps.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Change parametrs CSS
+Change parametrs [CSS](https://github.com/Nyushaf/Running-timer/blob/be133171ba36406229dad6bee28f9338bc17d861/style.css#L1-L145)
    <img src="image/css.jpg" alt="screen">
 <br />
 <br />
-You can change parametrs for animation
+You can change parametrs for [animation](https://github.com/Nyushaf/Running-timer/blob/be133171ba36406229dad6bee28f9338bc17d861/script.js#L1)
    ```sh
    gsap.from (".box-one", {x: 500, easy: "bounce", opacity: 0, duration: 1.5, delay: .5})
    ```
